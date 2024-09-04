@@ -1,0 +1,25 @@
+# Exclude fișierele din alte directoare
+/wp-admin/
+/wp-includes/
+/wp-content/themes/
+/wp-content/uploads/
+/wp-content/plugins/akismet/
+/wp-content/plugins/classic-editor/
+/wp-content/plugins/elementor/
+/wp-content/plugins/akismet/
+/wp-content/plugins/akismet/
+
+# Exclude fișiere temporare și inutile
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Exclude fișiere generate de sistemele de operare
+.vscode/
+.idea/
+.env
+
+# Include doar pluginul tău (asigură-te că ai corect denumirea directoarelor)
+!/wp-content/plugins/anunturi-plugin/
